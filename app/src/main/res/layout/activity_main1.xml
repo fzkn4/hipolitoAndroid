@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/brown_gradient"
+    android:id="@+id/main">
+
+    <ImageView
+        android:id="@+id/app_logo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:src="@drawable/flogo"
+        android:contentDescription="@string/logo_description" />
+
+    <View
+        android:id="@+id/ellipse_143"
+        android:layout_width="257dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="629dp"
+        android:background="#022B1D"
+        android:alpha="0.3"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <View
+        android:id="@+id/ellipse_142"
+        android:layout_width="216dp"
+        android:layout_height="216dp"
+        android:layout_marginStart="-99dp"
+        android:layout_marginTop="-33dp"
+        android:background="#16313C"
+        android:alpha="0.72"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/welcome_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:text="@string/welcome_back"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/eb1" />
+
+    <EditText
+        android:id="@+id/email_input"
+        android:layout_width="335dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="378dp"
+        android:hint="@string/email_hint"
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:alpha="0.65"
+        android:fontFamily="@font/eb1"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true" />
+
+    <!-- Password input with eye icon -->
+    <RelativeLayout
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp">
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:hint="@string/password_hint"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_edittext"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            android:alpha="0.65"
+            android:fontFamily="@font/eb1"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/eye_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_eye_off"
+            app:tint="@color/white" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="295dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="530dp"
+        android:text="@string/login_button_text"
+        android:background="@drawable/button_background"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:fontFamily="@font/eb1"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:padding="10dp" />
+
+    <TextView
+        android:id="@+id/forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="609dp"
+        android:text="@string/forgot_password_text"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/eb1"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/dont_have_account"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="680dp"
+        android:text="@string/join_us_text"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/eb1"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center" />
+
+    <Button
+        android:id="@+id/google_button"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="287dp"
+        android:background="@drawable/button_background"
+        android:drawablePadding="30dp"
+        android:fontFamily="@font/eb1"
+        android:gravity="center"
+        android:padding="1dp"
+        android:text="@string/google_label"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:drawableStart="@drawable/button_background"/>
+
+    <Button
+        android:id="@+id/facebook_button"
+        android:layout_width="170dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="287dp"
+        android:text="@string/facebook_label"
+        android:background="@drawable/button_background"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/eb1"
+        android:textSize="23sp"
+        android:padding="1dp"
+        android:gravity="center"
+        android:drawableStart="@drawable/button_background"/>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/google_button_icon" />
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/facebook_button_icon" />
+
+</RelativeLayout>

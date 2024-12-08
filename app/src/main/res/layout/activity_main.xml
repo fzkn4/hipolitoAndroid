@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <View
+        android:id="@+id/bg"
+        android:layout_width="518dp"
+        android:layout_height="898dp"
+        android:background="@drawable/animation_list"
+        android:translationX="-100dp"
+        android:translationY="-33dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/ellipse_143"
+        android:layout_width="216dp"
+        android:layout_height="216dp"
+        android:alpha="1.0"
+        android:background="@drawable/circle_shape"
+        android:elevation="10dp"
+        android:translationX="190dp"
+        android:translationY="590dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/ellipse_145" />
+
+    <View
+        android:id="@+id/ellipse_145"
+        android:layout_width="216dp"
+        android:layout_height="216dp"
+        android:alpha="1.0"
+        android:elevation="10dp"
+        android:background="@drawable/circle_shape"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:translationX="300dp"
+        android:translationY="460dp" />
+
+
+    <View
+        android:id="@+id/ellipse_142"
+        android:layout_width="216dp"
+        android:layout_height="216dp"
+        android:alpha="0.72"
+        android:elevation="20dp"
+        android:background="@drawable/circle_shape"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:translationX="40dp"
+        android:translationY="-100dp" />
+
+    <View
+        android:id="@+id/ellipse_146"
+        android:layout_width="216dp"
+        android:layout_height="216dp"
+        android:alpha="0.72"
+        android:background="@drawable/circle_shape"
+        android:elevation="20dp"
+        android:translationX="-100dp"
+        android:translationY="-23dp"
+        app:layout_constraintEnd_toEndOf="@+id/ellipse_142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="11dp"
+        android:src="@drawable/flogo"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/coordination_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+    <View
+        android:id="@+id/frame"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@android:color/transparent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:translationX="170dp"
+        android:translationY="291dp" />
+
+
+    <TextView
+        android:id="@+id/coordination_text"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/eb1"
+        android:gravity="center"
+        android:text="@string/coordination_events"
+        android:textColor="#F6F3F2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/navigate_button_to_main_activity_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Next"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="20dp"
+        android:elevation="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/coordination_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

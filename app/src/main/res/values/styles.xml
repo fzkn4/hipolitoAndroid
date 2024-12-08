@@ -1,0 +1,52 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="DoctorCard">
+        <item name="android:layout_width">335dp</item>
+        <item name="android:layout_height">170dp</item>
+        <item name="android:background">#2F2F2F</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:elevation">4dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">112dp</item>
+        <item name="android:layout_height">34dp</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="TextStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+
+    <style name="CustomCalendarView" parent="android:Widget.CalendarView">
+    <item name="android:textColor">@color/white</item>
+        <item name="android:weekDayTextAppearance">@style/CustomWeekDayText</item>
+        <item name="android:dateTextAppearance">@style/CalendarDateText</item>
+    </style>
+
+    <style name="CustomWeekDayText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="CalendarDateText">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,12 @@
+<!-- res/drawable/reminder_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <solid android:color="#75E00A" /> <!-- Green color background -->
+    <size
+        android:width="60dp"
+        android:height="60dp" />
+
+    <corners android:radius="30dp" /> <!-- Ensuring it's circular -->
+
+</shape>

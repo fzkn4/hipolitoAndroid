@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Eventure Styling</string>
+    <string name="email_hint">Email Account</string>
+    <string name="welcome_back">Welcome back</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button_text">Login</string>
+    <string name="forgot_password_text">Forgot Password?</string>
+    <string name="join_us_text">Don’t have an account? Join us</string>
+    <string name="logo_description">Your logo description here</string>
+    <string name="google_label">Google</string>
+    <string name="facebook_label">Facebook</string>
+    <string name="coordination_events">Coordination and Events</string>
+    <string name="welcome_sign_up">Welcome to Sign Up</string>
+    <string name="name_hint">Enter your username</string>
+    <string name="confirm_password_hint">Confirm your password</string>
+    <string name="sign_up_button_text">Sign Up</string>
+    <string name="already_have_account_text">Already have an account? Log in</string>
+    <string name="greeting_text">Hi Eventurers!</string>
+    <string name="find_your_coordinator">Find your Dream Events! </string>
+    <string name="coordinator_hint">Search Coordinator here...</string>
+
+    <string name="event_coordinator">Event Coordinator</string>
+    <string name="event_coordinator1">Event Coordinator</string>
+
+    <string name="experience_years">4 Years experience</string>
+    <string name="experience_years1">1 Year experience</string>
+    <string name="experience_years2">3 Years experience</string>
+    <string name="experience_years3">2 Years experience</string>
+
+
+    <string name="next_available">Next Available</string>
+    <string name="next_available1">Not Available this Week</string>
+    <string name="next_available2">Available Now</string>
+
+
+    <string name="available_time">8:00 AM - 5:00 PM Today</string>
+    <string name="available_time1">6:00 AM  - 11:00 AM tomorrow</string>
+    <string name="available_time2">1:00 PM - 5:00 PM Next Day</string>
+    <string name="available_time3">6:00 AM - 9:00 PM Tomorrow </string>
+
+    <string name="coordinator_name">Iris Cassandra Tan</string>
+    <string name="coordinator_name_1"> Elias Miguel Ramos </string>
+    <string name="coordinator_name_2"> Zachary Luis Garcia</string>
+    <string name="coordinator_name_3"> Celestine Sofia Salcedo</string>
+
+    <string name="book_now">Book Now</string>
+    <string name="book_now2">Book Now</string>
+    <string name="book_now3">Book Now</string>
+
+    <string name="events_hosted4">69 Events Hosted</string>
+    <string name="events_hosted5">127 Events Hosted</string>
+    <string name="events_hosted6">143 Events Hosted</string>
+
+    <string name="rating_percentage3">98%</string>
+    <string name="rating_percentage4">98.5%</string>
+    <string name="rating_percentage5">97.10%</string>
+
+    <string name="rating_percentage">95%</string>
+    <string name="rating_percentage1">97%</string>
+    <string name="rating_percentage2">94%</string>
+
+
+    <string name="event_hint"> Search your perfect venue here…</string>
+
+    <string name="venue_name"> Pearl View Hotel</string>
+    <string name="venue_name1"> Crystal Sands Resort </string>
+    <string name="venue_name2"> The Manila Haven Suites</string>
+    <string name="venue_name3"> Sunset Cove Hotel</string>
+
+
+    <string name="venue_location"> Cebu City</string>
+    <string name="venue_location1"> El Nido, Palawan</string>
+    <string name="venue_location2"> Makati City, Metro Manila</string>v
+    <string name="venue_location3"> Boracay Island, Aklan</string>
+
+    <string name="venue_capacity"> 150 pax Capacity</string>
+    <string name="venue_capacity1"> 200 pax Capacity</string>
+    <string name="venue_capacity2"> 250 pax Capacity</string>
+
+
+    <string name="Hotel_available"> Click here to Check Availability</string>
+    <string name="Hotel_available1"> Fully Booked </string>
+    <string name="Hotel_available2"> Available this Week Only.</string>
+
+    <string name="events_hosted">15k+ Hosted</string>
+    <string name="events_hosted1"> 10k+ Hosted</string>
+    <string name="events_hosted2"> 20k+ Hosted</string>
+    <string name="events_hosted3"> 7k+ Hosted</string>
+
+
+    <string name="venue_image_description"> Venues </string>
+
+    <string name="coordinator_image_description">Coordinator Image</string>
+
+    <string name="search_icon_description">Search Icon</string>
+
+
+    <string name="morning_time">6:00 AM</string>
+    <string name="morning_time1"> 8:00 AM</string>
+    <string name="morning_time2"> 10:00 AM</string>
+    <string name="afternoon_time">12:00 PM</string>
+    <string name="afternoon_time1">2:00 PM</string>
+    <string name="afternoon_time2">4:00 PM</string>
+    <string name="evening_time">6:00 PM</string>
+    <string name="evening_time1">9:00 PM</string>
+    <string name="evening_time2">11:00 PM</string>
+
+    <string name="Morning_slots">Morning 2 slots</string>
+    <string name="Afternoon_slots">Afternoon 2 slots</string>
+    <string name="Evening_slots">Evening 3 slots</string>
+
+    <string name="Date_1">Today, 25 Sept</string>
+    <string name="Date_2">Thu, 26 Sept</string>
+    <string name="Date_3">Fri, 27 Sept</string>
+
+    <string name="C_location"> Quezon City, Metro Manila</string>
+    <string name="C_location1"> Vigan City, Ilocos Sur</string>
+    <string name="C_location2"> Bacolod City, Negros Occidental</string>
+
+    <string name="SelectTime_Tab"> Select Time</string>
+
+    <string name="star">★★★★★</string>
+
+    <string name="Calendar">Open Calendar</string>
+    <string name="Select">Select a Date</string>
+
+    <string name="Next"> >>> </string>
+
+    <string name="Reminder"> Reminder Me Before</string>
+
+    <string name="Confirm">Confirm</string>
+
+    <string name="Minutes"> 30 Min </string>
+
+
+    <string name="home"> Home</string>
+    <string name="venue"> Venue</string>
+    <string name="coordinator"> Coor</string>
+    <string name="appointments">Appoint</string>
+    <string name="user_profile"> Profile</string>
+
+
+    <string name="Min1"> 30 Min</string>
+    <string name="RMB">Reminder Me Before</string>
+    <string name="C"> Confirm</string>
+    <string name="Month"> January </string>
+    <string name="Month1"> February </string>
+    <string name="Month2"> March</string>
+    <string name="Appoint"> Appointment</string>
+    <string name="Week1"> Mon</string>
+    <string name="Week2"> Tue</string>
+    <string name="Week3"> Wed</string>
+    <string name="Week4"> Thu</string>
+    <string name="Week5"> Fr</string>
+    <string name="Week6"> Sat</string>
+    <string name="Week7"> Sun</string>
+
+    <string name="Weeks">Mon Tue Wed Thu Fr Sat Sun</string>
+
+    <string name="text_one">1</string>
+    <string name="text_two">2</string>
+
+    <string name="Avail"> Available Time</string>
+
+    <string name="NUM"> 09091023127</string>
+
+    <string name="ERecords">Event Records</string>
+    <string name="Logout">Logout</string>
+    <string name="HC">Help Center</string>
+    <string name="PaP">Privacy and Policy</string>
+    <string name="TS">Test Bookings</string>
+    <string name="S">Settings</string>
+    <string name="Pay"> Payments</string>
+    <string name="Pick">Open Date Picker</string>
+    <string name="SelectD">Selected Date</string>
+    <string name="SelectT">Selected Time</string>
+    <string name="B"> Back </string>
+
+    <string name="Num">09091023127</string>
+
+    <string name="MC">My Coordinator</string>
+
+    <string name="SP"></string>
+    <string name="OC">Open Calendar</string>
+    <string name="SD">Selected Date:  </string>
+
+    <string-array name="user_profile_options">
+        <item>My Coordinator</item>
+        <item>Event Records</item>
+        <item>Payments</item>
+        <item>Test Bookings</item>
+        <item>Privacy and Policy</item>
+        <item>Help Center</item>
+        <item>Logout</item>
+
+    </string-array>
+
+    <string name="Quote"> Make you Dream Events Come True</string>
+
+    <string name="Bk">Back</string>
+
+
+</resources>
